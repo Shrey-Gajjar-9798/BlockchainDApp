@@ -7,11 +7,15 @@
 html,
 body {
     min-height: 100%;
-    height: inherit;
+    /* height: inherit; */
     width: 100%;
     margin: 0;
     padding: 0;
 
+}
+.main-block{
+    height: 100vh;
+    width: auto;
 }
 
 body,
@@ -166,4 +170,84 @@ button:hover,
         flex: 1;
         height: auto;
     }
+}
+.mydiv{
+    width: 500px;
+}
+.btnstyle{
+    width: 100px;
+    margin-left: 20px;
+    background-color: orange;
+}
+.middleheading{
+    width: 100%;
+    color: Black;
+    font-family: Roboto, Arial, sans-serif;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+.infotable {
+    border-collapse: collapse;
+    margin: 25px 0px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 1000px;
+    /* display: flex;
+    justify-content: center; */
+
+    height: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.infotable thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.infotable th,
+.infotable td {
+    padding: 12px 60px;
+    color: black;
+}
+.infotable tbody tr {
+    border: 1px solid #dddddd;
+}
+
+.infotable tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.infotable tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.Lasttable{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.infotable{
+    margin-bottom: 150px;
+}
+.checkupdate{
+    color: black;
+    border-bottom: 2px solid #009879;
+    
+}
+.checkupdate::-webkit-input-placeholder{
+    color: grey;
+}
+.blockhash{
+    color: black;
+    font-size: 20px;
+}
+.hashcheckvalue{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
